@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+ 
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+ 
+# NLTK downloaded data
+nltk_data/
+ 
+# Environment variables
+.env
+.env.*
+ 
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+ 
+# OS
+.DS_Store
+Thumbs.db
+ 
+# Logs
+*.log
+ 
+# Docker
+docker-compose.override.yml
+ 
+# Exported chatbot files (generated at runtime by the frontend)
+NutriBot_*.txt
